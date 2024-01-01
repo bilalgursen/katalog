@@ -21,7 +21,9 @@ export default function RootLayout({
         <div className="px-3 lg-px-16">
           <nav className="rounded-2xl navbar text-primary-content bg-orange-300 shadow-2xl mt-6">
             <div className="flex-1">
-              <a className="btn btn-ghost text-xl">B&R Elektronik</a>
+              <Link className="btn btn-ghost text-xl" href={'/'}>
+                B&R Elektronik
+              </Link>
             </div>
             <div className="flex-none">
               <ul className="menu menu-horizontal">
