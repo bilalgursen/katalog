@@ -1,0 +1,1621 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "WATCH DOGS 2",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan WATCH DOGS 2 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 2,
+      "name": "Call of Duty: Infinite Warfare",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan CODIW oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 3,
+      "name": "Need for Speed Payback",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan NFS oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 4,
+      "name": "Rise of the Tomb Raider",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Rise of the Tomb Raider oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 5,
+      "name": "Monster Hunter: World",
+      "type": "RPG",
+      "short_description": "B&R Elektronik tarafından sunulan Monster Hunter: World oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 6,
+      "name": "Mafia 3",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Mafia 3 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 7,
+      "name": "Dying Light",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Dying Light oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 8,
+      "name": "Mortal Kombat XL",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Mortal Kombat XL oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 9,
+      "name": "Motorcycle Club",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Motorcycle Club oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 10,
+      "name": "Flatout 4: Total Insanity",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Flatout 4 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 11,
+      "name": "Sniper Ghost Warrior 3",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Sniper Ghost Warrior 3 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 12,
+      "name": "Uncharted: The Lost Legacy",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Uncharted: The Lost Legacy oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 13,
+      "name": "Far Cry 5",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Far Cry 5 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 14,
+      "name": "FIFA 18",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan FIFA 18 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 15,
+      "name": "God of War 4",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan God of War 4 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 16,
+      "name": "Grand Theft Auto V",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Grand Theft Auto V oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 17,
+      "name": "PES 2018",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan PES 2018 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 18,
+      "name": "PES 2018 Spiker",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan PES 2018 Spiker oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 19,
+      "name": "Star Wars Battlefront II",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Star Wars Battlefront II oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 20,
+      "name": "Resident Evil Origins Collection",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil Origins Collection oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 21,
+      "name": "Sonic Forces",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Sonic Forces oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 22,
+      "name": "Uncharted: The Nathan Drake Collection",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Uncharted: The Nathan Drake Collection oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 23,
+      "name": "Until Dawn",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Until Dawn oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 24,
+      "name": "Assassin's Creed",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Assassin's Creed oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 25,
+      "name": "Resident Evil 7",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 7 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 26,
+      "name": "Marvel vs. Capcom Infinite",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Marvel vs. Capcom Infinite oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 27,
+      "name": "WWE 2K18",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan WWE 2K18 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 28,
+      "name": "NBA 2K18",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan NBA 2K18 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 29,
+      "name": "NBA 2K18",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan NBA 2K18 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 30,
+      "name": "Silent Hill",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Silent Hill oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 31,
+      "name": "Tekken 7",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Tekken 7 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 32,
+      "name": "Call of Duty: WWII",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: WWII oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 33,
+      "name": "Crash Bandicoot N Sane Trilogy",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Crash Bandicoot N Sane Trilogy oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 34,
+      "name": "Primal",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Primal oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 35,
+      "name": "Lego Ninjago Movie Video Game",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Lego Ninjago Movie Video Game oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 36,
+      "name": "Lego Worlds",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Lego Worlds oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 37,
+      "name": "Lego DC Super-Villains",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Lego DC Super-Villains oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 38,
+      "name": "Call of Duty: Modern Warfare 2",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 39,
+      "name": "Call of Duty: Modern Warfare 2 Update",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 Update oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 40,
+      "name": "Lego Star Wars: The Skywalker Saga Update",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Lego Star Wars: The Skywalker Saga Update oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 41,
+      "name": "Lego Star Wars: The Skywalker Saga",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Lego Star Wars: The Skywalker Saga oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 42,
+      "name": "Assassin's Creed Valhalla",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Assassin's Creed Valhalla oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 43,
+      "name": "Call of Duty: Modern Warfare 2",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 44,
+      "name": "Call of Duty: Modern Warfare 2 Content 1",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 Content 1 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 45,
+      "name": "Call of Duty: Modern Warfare 2 Content 2",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 Content 2 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 46,
+      "name": "Call of Duty: Modern Warfare 2 Content 3",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 Content 3 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 47,
+      "name": "Call of Duty: Modern Warfare 2 Content 4",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 Content 4 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 48,
+      "name": "Call of Duty: Modern Warfare 2 Content 5",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 Content 5 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 49,
+      "name": "Call of Duty: Modern Warfare 2 Stub 1",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 Stub 1 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 50,
+      "name": "Call of Duty: Modern Warfare 2 Stub 2",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 Stub 2 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 51,
+      "name": "Call of Duty: Modern Warfare 2 Stub 3",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 Stub 3 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 52,
+      "name": "Call of Duty: Modern Warfare 2 Stub 4",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 Stub 4 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 53,
+      "name": "Call of Duty: Modern Warfare 2 Stub 5",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 Stub 5 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 54,
+      "name": "Call of Duty: Modern Warfare 2 Stub 6",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 Stub 6 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 55,
+      "name": "Call of Duty: Modern Warfare 2",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Modern Warfare 2 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 56,
+      "name": "Harry Potter: Hogwarts Legacy",
+      "type": "RPG",
+      "short_description": "B&R Elektronik tarafından sunulan Harry Potter: Hogwarts Legacy oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 57,
+      "name": "Stray",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Stray oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 58,
+      "name": "Stray",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Stray oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 59,
+      "name": "LEGO Jurassic World",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan LEGO Jurassic World oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 60,
+      "name": "LEGO The Incredibles",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan LEGO The Incredibles oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 61,
+      "name": "LEGO Batman 3: Beyond Gotham",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan LEGO Batman 3: Beyond Gotham oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 62,
+      "name": "Resident Evil 4",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 4 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 63,
+      "name": "Resident Evil 4 (Rusça Dil Desteği)",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 4 (Rusça Dil Desteği) oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 64,
+      "name": "Resident Evil 4",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 4 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 65,
+      "name": "Dead Island 2",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Dead Island 2 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 66,
+      "name": "Dead Island 2 (1)",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Dead Island 2 (1) oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 67,
+      "name": "Resident Evil 4 Remaster",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 4 Remaster oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 68,
+      "name": "Resident Evil 4 Remaster",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 4 Remaster oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 69,
+      "name": "EA Sports FC 24",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan EA Sports FC 24 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 70,
+      "name": "EA Sports FC 24 (Brezilya Portekizce Ses)",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan EA Sports FC 24 (Brezilya Portekizce Ses) oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 71,
+      "name": "EA Sports FC 24",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan EA Sports FC 24 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 72,
+      "name": "EA Sports FC 24",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan EA Sports FC 24 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 73,
+      "name": "Assassin's Creed Mirage",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Assassin's Creed Mirage oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 74,
+      "name": "Assassin's Creed Mirage",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Assassin's Creed Mirage oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 75,
+      "name": "Farming Simulator 22",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 76,
+      "name": "Farming Simulator 22",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 77,
+      "name": "Farming Simulator 22: ERO Grapeliner",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: ERO Grapeliner eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 78,
+      "name": "Farming Simulator 22: Fendt 900 Vario Black Beauty",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Fendt 900 Vario Black Beauty eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 79,
+      "name": "Farming Simulator 22: Forestry Pack",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Forestry Pack eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 80,
+      "name": "Farming Simulator 22: Goweil Pack",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Goweil Pack eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 81,
+      "name": "Farming Simulator 22: Kubota Pack",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Kubota Pack eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 82,
+      "name": "Farming Simulator 22: Mack Trucks Black Anthem",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Mack Trucks Black Anthem eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 83,
+      "name": "Farming Simulator 22: Porsche Diesel Junior 108",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Porsche Diesel Junior 108 eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 84,
+      "name": "Farming Simulator 22: Pumps 'n' Hoses",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Pumps 'n' Hoses eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 85,
+      "name": "Farming Simulator 22: Vermeer Pack",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Vermeer Pack eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 86,
+      "name": "Farming Simulator 22: Volvo LM 845",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Volvo LM 845 eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 87,
+      "name": "Farming Simulator 22: Volvo T.425 Krabat",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Volvo T.425 Krabat eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 88,
+      "name": "Farming Simulator 22: Zetor 25 K",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Zetor 25 K eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 89,
+      "name": "Farming Simulator 22: AGI Pack",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: AGI Pack eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 90,
+      "name": "Farming Simulator 22: Antonio Carraro Pack",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Antonio Carraro Pack eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 91,
+      "name": "Farming Simulator 22: Claas Saddle Pack",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan Farming Simulator 22: Claas Saddle Pack eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 92,
+      "name": "Lios",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Lios oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 93,
+      "name": "Lios of P: Deluxe Upgrade",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Lios of P: Deluxe Upgrade eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 94,
+      "name": "Lios of P: Pre-Order Costume",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Lios of P: Pre-Order Costume eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 95,
+      "name": "Capcom Fighting Collection",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Capcom Fighting Collection oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 96,
+      "name": "Capcom Fighting Collection Update",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Capcom Fighting Collection Update eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 97,
+      "name": "Capcom Arcade Stadium Update",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Capcom Arcade Stadium Update eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 98,
+      "name": "SnowRunner: Clasico Pack DLC Unlocker",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner: Clasico Pack DLC Unlocker eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 99,
+      "name": "SnowRunner: High Roller Pack DLC",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner: High Roller Pack DLC eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 100,
+      "name": "SnowRunner: Loaded Dice Vinyl Wrap DLC",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner: Loaded Dice Vinyl Wrap DLC eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 101,
+      "name": "SnowRunner: Sabertooth Livery Skin DLC",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner: Sabertooth Livery Skin DLC eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 102,
+      "name": "SnowRunner: Scorched Vinyl Wrap DLC",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner: Scorched Vinyl Wrap DLC eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 103,
+      "name": "SnowRunner: Season 1 - Search and Recover DLC",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner: Season 1 - Search and Recover DLC eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 104,
+      "name": "SnowRunner: Season 2 - Explore and Expand DLC",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner: Season 2 - Explore and Expand DLC eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 105,
+      "name": "SnowRunner: Season 3 - Locate and Deliver DLC",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner: Season 3 - Locate and Deliver DLC eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 106,
+      "name": "SnowRunner: True Colors Vinyl Wrap DLC",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner: True Colors Vinyl Wrap DLC eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 107,
+      "name": "SnowRunner: Western Star 49X DLC",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner: Western Star 49X DLC eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 108,
+      "name": "SnowRunner: SNOWRUNNER DLC01",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner: SNOWRUNNER DLC01 eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 109,
+      "name": "SnowRunner",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 110,
+      "name": "SnowRunner: Optional Fix",
+      "type": "Simülasyon",
+      "short_description": "B&R Elektronik tarafından sunulan SnowRunner: Optional Fix eklenti paketi.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 111,
+      "name": "Street Fighter 6",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Street Fighter 6 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 112,
+      "name": "Gran Turismo 7",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Gran Turismo 7 oyunu.",
+      "location": "Sümbül"
+    },
+    {
+      "id": 113,
+      "name": "Dead Rising 4: Frank's Big Package",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Dead Rising 4: Frank's Big Package oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 114,
+      "name": "Rayman Legends",
+      "type": "Platform",
+      "short_description": "B&R Elektronik tarafından sunulan Rayman Legends oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 115,
+      "name": "Batman: The Telltale Series",
+      "type": "Macera",
+      "short_description": "B&R Elektronik tarafından sunulan Batman: The Telltale Series oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 116,
+      "name": "Battlefield 4",
+      "type": "FPS",
+      "short_description": "B&R Elektronik tarafından sunulan Battlefield 4 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 117,
+      "name": "DmC Devil May Cry Definitive Edition",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan DmC Devil May Cry Definitive Edition oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 118,
+      "name": "God of War III Remastered",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan God of War III Remastered oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 119,
+      "name": "inFamous Second Son",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan inFamous Second Son oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 120,
+      "name": "Minecraft PlayStation®4 Edition",
+      "type": "Sandbox",
+      "short_description": "B&R Elektronik tarafından sunulan Minecraft PlayStation®4 Edition oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 121,
+      "name": "Minecraft Story Mode: A Telltale Games Series",
+      "type": "Macera",
+      "short_description": "B&R Elektronik tarafından sunulan Minecraft Story Mode: A Telltale Games Series oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 122,
+      "name": "Need for Speed Rivals",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Need for Speed Rivals oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 123,
+      "name": "PAYDAY 2: The Big Score",
+      "type": "FPS",
+      "short_description": "B&R Elektronik tarafından sunulan PAYDAY 2: The Big Score oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 124,
+      "name": "BlazBlue: Central Fiction",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan BlazBlue: Central Fiction oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 125,
+      "name": "Media Player",
+      "type": "Uygulama",
+      "short_description": "B&R Elektronik tarafından sunulan Media Player uygulaması.",
+      "location": "Begonya"
+    },
+    {
+      "id": 126,
+      "name": "Youtube",
+      "type": "Uygulama",
+      "short_description": "B&R Elektronik tarafından sunulan Youtube uygulaması.",
+      "location": "Begonya"
+    },
+    {
+      "id": 127,
+      "name": "UFC 3",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan UFC 3 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 128,
+      "name": "Tom Clancy's Ghost Recon Wildlands",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Tom Clancy's Ghost Recon Wildlands oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 129,
+      "name": "Tom Clancy's Ghost Recon Wildlands Update",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Tom Clancy's Ghost Recon Wildlands Update güncelleme paketi.",
+      "location": "Begonya"
+    },
+    {
+      "id": 130,
+      "name": "Friday the 13th",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Friday the 13th oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 131,
+      "name": "Friday the 13th",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Friday the 13th oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 132,
+      "name": "Injustice 2",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Injustice 2 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 133,
+      "name": "Sniper Elite 4",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Sniper Elite 4 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 134,
+      "name": "Persona 5",
+      "type": "RPG",
+      "short_description": "B&R Elektronik tarafından sunulan Persona 5 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 135,
+      "name": "Child of Light",
+      "type": "RPG",
+      "short_description": "B&R Elektronik tarafından sunulan Child of Light oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 136,
+      "name": "Devil May Cry Definitive Edition",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Devil May Cry Definitive Edition oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 137,
+      "name": "Devil May Cry HD Collection",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Devil May Cry HD Collection oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 138,
+      "name": "DiRT 4",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan DiRT 4 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 139,
+      "name": "Leo's Fortune Update 1.01",
+      "type": "Macera",
+      "short_description": "B&R Elektronik tarafından sunulan Leo's Fortune Update 1.01 güncelleme paketi.",
+      "location": "Begonya"
+    },
+    {
+      "id": 140,
+      "name": "Leo's Fortune",
+      "type": "Macera",
+      "short_description": "B&R Elektronik tarafından sunulan Leo's Fortune oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 141,
+      "name": "Monster Hunter World",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Monster Hunter World oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 142,
+      "name": "Mortal Kombat XL",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Mortal Kombat XL oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 143,
+      "name": "Resident Evil 5",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 5 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 144,
+      "name": "Resident Evil 6",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 6 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 145,
+      "name": "Shadow of the Colossus",
+      "type": "Macera",
+      "short_description": "B&R Elektronik tarafından sunulan Shadow of the Colossus oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 146,
+      "name": "Shadow of the Colossus Update",
+      "type": "Macera",
+      "short_description": "B&R Elektronik tarafından sunulan Shadow of the Colossus Update güncelleme paketi.",
+      "location": "Begonya"
+    },
+    {
+      "id": 147,
+      "name": "Shadow of the Beast",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Shadow of the Beast oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 148,
+      "name": "Street Fighter V",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Street Fighter V oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 149,
+      "name": "The Last Guardian",
+      "type": "Macera",
+      "short_description": "B&R Elektronik tarafından sunulan The Last Guardian oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 150,
+      "name": "Titan Quest",
+      "type": "RPG",
+      "short_description": "B&R Elektronik tarafından sunulan Titan Quest oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 151,
+      "name": "Tomb Raider",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Tomb Raider oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 152,
+      "name": "WRC 7",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan WRC 7 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 153,
+      "name": "Burnout Paradise",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Burnout Paradise oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 154,
+      "name": "Burnout Paradise Update",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Burnout Paradise Update güncelleme paketi.",
+      "location": "Begonya"
+    },
+    {
+      "id": 155,
+      "name": "Call of Duty: Black Ops III",
+      "type": "FPS",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty: Black Ops III oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 156,
+      "name": "Uncharted 1: Drake's Fortune Remastered",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Uncharted 1: Drake's Fortune Remastered oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 157,
+      "name": "Uncharted 3: Drake's Deception Remastered",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Uncharted 3: Drake's Deception Remastered oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 158,
+      "name": "Uncharted 4",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Uncharted 4 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 159,
+      "name": "Assassin's Creed IV: Black Flag",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Assassin's Creed IV: Black Flag oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 160,
+      "name": "Bloodborne",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Bloodborne oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 161,
+      "name": "Crash Collections",
+      "type": "Platform",
+      "short_description": "B&R Elektronik tarafından sunulan Crash Collections oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 162,
+      "name": "Dark Souls 3 Full DLC",
+      "type": "RPG",
+      "short_description": "B&R Elektronik tarafından sunulan Dark Souls 3 Full DLC oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 162,
+      "name": "Dark Souls 3 Full DLC",
+      "type": "RPG",
+      "short_description": "B&R Elektronik tarafından sunulan Dark Souls 3 Full DLC oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 163,
+      "name": "Deus Ex: Mankind Divided",
+      "type": "FPS",
+      "short_description": "B&R Elektronik tarafından sunulan Deus Ex: Mankind Divided oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 164,
+      "name": "God of War 1",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan God of War 1 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 165,
+      "name": "God of War 2",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan God of War 2 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 166,
+      "name": "God of War 3 CUSA01715.4.05",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan God of War 3 CUSA01715.4.05 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 167,
+      "name": "Hellblade: Senua's Sacrifice",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Hellblade: Senua's Sacrifice oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 168,
+      "name": "Horizon Zero Dawn CE",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Horizon Zero Dawn CE oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 169,
+      "name": "Killzone: Shadow Fall CUSA00190 TURKCE",
+      "type": "FPS",
+      "short_description": "B&R Elektronik tarafından sunulan Killzone: Shadow Fall CUSA00190 TURKCE oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 170,
+      "name": "Metro Redux CUSA00593 TURKCE YAMA",
+      "type": "FPS",
+      "short_description": "B&R Elektronik tarafından sunulan Metro Redux CUSA00593 TURKCE YAMA oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 171,
+      "name": "Metro Redux CUSA00593",
+      "type": "FPS",
+      "short_description": "B&R Elektronik tarafından sunulan Metro Redux CUSA00593 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 172,
+      "name": "Resident Evil 7 CUSA03842 TURKCE YAMA",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 7 CUSA03842 TURKCE YAMA oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 173,
+      "name": "Resident Evil 7 CUSA03842",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 7 CUSA03842 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 174,
+      "name": "Sebastien Loeb Rally Evo CUSA02021",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Sebastien Loeb Rally Evo CUSA02021 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 175,
+      "name": "Need for Speed: Heat CUSA15090 GAME",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Need for Speed: Heat CUSA15090 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 176,
+      "name": "Mortal Kombat 11 CUSA11379 GAME",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Mortal Kombat 11 CUSA11379 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 177,
+      "name": "Days Gone PS4 GAME",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Days Gone PS4 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 178,
+      "name": "Judgment PS4 GAME",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Judgment PS4 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 179,
+      "name": "Crash Team Racing Nitro Fueled CUSA14876 GAME",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Crash Team Racing Nitro Fueled CUSA14876 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 180,
+      "name": "Sekiro: Shadows Die Twice CUSA13801 GAME",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Sekiro: Shadows Die Twice CUSA13801 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 181,
+      "name": "Red Dead Redemption 2 CUSA08519 GAME",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Red Dead Redemption 2 CUSA08519 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 182,
+      "name": "MotoGP 19 GAME",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan MotoGP 19 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 183,
+      "name": "MotoGP 19 FIX",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan MotoGP 19 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 184,
+      "name": "Dead or Alive 6 CUSA12116 FIX",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Dead or Alive 6 CUSA12116 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 185,
+      "name": "Dead or Alive 6 CUSA12116 GAME",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Dead or Alive 6 CUSA12116 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 186,
+      "name": "Dead or Alive 6 UPDATE v1.18",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Dead or Alive 6 UPDATE v1.18 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 187,
+      "name": "Far Cry: New Dawn UPDATE v1.05",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Far Cry: New Dawn UPDATE v1.05 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 188,
+      "name": "Far Cry: New Dawn GAME",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Far Cry: New Dawn GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 189,
+      "name": "Crash Team Racing Nitro",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Crash Team Racing Nitro oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 190,
+      "name": "PES 2020 CUSA14918 GAME",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan PES 2020 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 191,
+      "name": "Far Cry New Dawn CUSA13885 FIX",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Far Cry New Dawn CUSA13885 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 192,
+      "name": "FIFA 2020 CUSA15545 FIX",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan FIFA 2020 CUSA15545 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 193,
+      "name": "FIFA 2020 GAME",
+      "type": "Spor",
+      "short_description": "B&R Elektronik tarafından sunulan FIFA 2020 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 194,
+      "name": "Mortal Kombat 11 CUSA11379 FIX",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Mortal Kombat 11 CUSA11379 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 195,
+      "name": "Need for Speed: Heat CUSA15090 FIX",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Need for Speed: Heat CUSA15090 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 196,
+      "name": "Red Dead Redemption 2 CUSA08519 FIX",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Red Dead Redemption 2 CUSA08519 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 197,
+      "name": "Resident Evil 2 CUSA09171 GAME",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 2 CUSA09171 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 198,
+      "name": "Resident Evil 2 CUSA09171 FIX",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 2 CUSA09171 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 199,
+      "name": "Resident Evil 2 CUSA09171 UPDATE",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 2 CUSA09171 UPDATE oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 200,
+      "name": "Sekiro: Shadows Die Twice CUSA13801 FIX",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Sekiro: Shadows Die Twice CUSA13801 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 201,
+      "name": "Sekiro: Shadows Die Twice UPDATE v1.04",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Sekiro: Shadows Die Twice UPDATE v1.04 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 202,
+      "name": "Days Gone CUSA09175 FIX",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Days Gone CUSA09175 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 203,
+      "name": "Shadow of the Tomb Raider GAME",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Shadow of the Tomb Raider GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 204,
+      "name": "Shadow of the Tomb Raider CUSA10872 FIX",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Shadow of the Tomb Raider CUSA10872 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 205,
+      "name": "Spider-Man CUSA11995 GAME",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Spider-Man CUSA11995 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 206,
+      "name": "Metro Exodus PS4 GAME",
+      "type": "FPS",
+      "short_description": "B&R Elektronik tarafından sunulan Metro Exodus PS4 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 207,
+      "name": "Spider-Man CUSA11995 FIX",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Spider-Man CUSA11995 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 208,
+      "name": "Hello Neighbor CUSA10960 FIX",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Hello Neighbor CUSA10960 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 209,
+      "name": "Hello Neighbor CUSA10960 UPDATE",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Hello Neighbor CUSA10960 UPDATE oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 210,
+      "name": "Battlefield 1 CUSA02387 GAME",
+      "type": "FPS",
+      "short_description": "B&R Elektronik tarafından sunulan Battlefield 1 CUSA02387 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 211,
+      "name": "Ride 3 CUSA10100 FIX",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Ride 3 CUSA10100 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 212,
+      "name": "The Last Of Us CUSA00556 GAME",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan The Last Of Us CUSA00556 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 213,
+      "name": "Assassins Creed Odyssey PS4 GAME",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Assassins Creed Odyssey PS4 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 214,
+      "name": "Judgment UPDATE v1.09",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Judgment UPDATE v1.09 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 215,
+      "name": "Soul Calibur 6 CUSA09884 FIX",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Soul Calibur 6 CUSA09884 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 216,
+      "name": "Battlefield V CUSA08670 FIX",
+      "type": "FPS",
+      "short_description": "B&R Elektronik tarafından sunulan Battlefield V CUSA08670 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 217,
+      "name": "Assassins Creed Odyssey CUSA09303 FIX",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Assassins Creed Odyssey CUSA09303 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 218,
+      "name": "Batman Arkham Knight CUSA00135",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Batman Arkham Knight CUSA00135 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 219,
+      "name": "Outlast 2 CUSA06633",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Outlast 2 CUSA06633 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 220,
+      "name": "Outlast Disk CUSA07742",
+      "type": "Korku",
+      "short_description": "B&R Elektronik tarafından sunulan Outlast Disk CUSA07742 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 221,
+      "name": "Soul Calibur 6 PS4-GAME",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan Soul Calibur 6 PS4-GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 222,
+      "name": "Battlefield V PS4-GAME",
+      "type": "FPS",
+      "short_description": "B&R Elektronik tarafından sunulan Battlefield V PS4-GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 223,
+      "name": "Ride 3 CUSA10100 GAME",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Ride 3 CUSA10100 GAME oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 224,
+      "name": "SOULCALIBUR VI Update v1.51",
+      "type": "Dövüş",
+      "short_description": "B&R Elektronik tarafından sunulan SOULCALIBUR VI Update v1.51 oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 225,
+      "name": "Metro Exodus 5.05 FIX",
+      "type": "FPS",
+      "short_description": "B&R Elektronik tarafından sunulan Metro Exodus 5.05 FIX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 226,
+      "name": "METAL SLUG 3 PS4-DUPLEX",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan METAL SLUG 3 PS4-DUPLEX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 227,
+      "name": "Terminator Resistance PS4-DUPLEX",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan Terminator Resistance PS4-DUPLEX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 228,
+      "name": "DayZ PS4-UNLiMiTED",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan DayZ PS4-UNLiMiTED oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 229,
+      "name": "Danger Zone 2 PS4-DUPLEX",
+      "type": "Yarış",
+      "short_description": "B&R Elektronik tarafından sunulan Danger Zone 2 PS4-DUPLEX oyunu.",
+      "location": "Begonya"
+    },
+    {
+      "id": 230,
+      "name": "The Angry Birds Movie 2 VR Under Pressure PSVR PS4-CUSA16223",
+      "type": "Aksiyon",
+      "short_description": "B&R Elektronik tarafından sunulan The Angry Birds Movie 2 VR Under Pressure PSVR PS4-CUSA16223 oyunu.",
+      "location": "Begonya"
+    }
+  ]
+}
