@@ -18,8 +18,8 @@ export default function RootLayout({
   return (
     <html data-theme="light" lang="tr">
       <body className={inter.className}>
-        <div className="px-3 lg-px-16">
-          <nav className="rounded-2xl navbar text-neutral-content bg-neutral shadow-xl mt-6">
+        <nav className="px-3 lg-px-16">
+          <div className="rounded-2xl navbar text-neutral-content bg-neutral shadow-xl mt-6">
             <div className="flex-1">
               <Link className="btn btn-ghost text-xl" href={'/'}>
                 B&R Elektronik
@@ -88,9 +88,12 @@ export default function RootLayout({
                 </li>
               </ul>
             </div>
-          </nav>
-        </div>
+          </div>
+        </nav>
         {children}
+        <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+          <p>Copyright © 2024 - Bilal Gürşen Tarafından ❤ ile yazılmıştır.</p>
+        </footer>
       </body>
     </html>
   )
