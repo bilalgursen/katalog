@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
@@ -16,7 +17,36 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="px-3 lg-px-16">
+          <nav className="rounded-2xl navbar text-primary-content bg-orange-300 shadow-2xl mt-6">
+            <div className="flex-1">
+              <a className="btn btn-ghost text-xl">B&R Elektronik</a>
+            </div>
+            <div className="flex-none">
+              <ul className="menu menu-horizontal">
+                <li>
+                  <Link href={'/koltest'}>Kol Test</Link>
+                </li>
+                <li>
+                  <details>
+                    <summary>Katalog</summary>
+                    <ul className=" bg-orange-300 rounded-t-none z-10 shadow-lg !mt-0">
+                      <li>
+                        <Link href={'/oyunlar'}>Oyunlar</Link>
+                      </li>
+                      <li>
+                        <a>Konsollar</a>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        {children}
+      </body>
     </html>
   )
 }
