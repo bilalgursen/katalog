@@ -19,10 +19,10 @@ export default function RootLayout({
     <html lang="tr">
       <body className={inter.className}>
         <div className="px-3 lg-px-16">
-          <nav className="rounded-2xl navbar text-primary-content bg-orange-300 shadow-2xl mt-6">
+          <nav className="rounded-2xl navbar text-primary-content bg-primary shadow-2xl mt-6">
             <div className="flex-1">
               <Link className="btn btn-ghost text-xl" href={'/'}>
-                Talha
+                B&R Elektronik
               </Link>
             </div>
             <div className="flex-none">
@@ -33,7 +33,7 @@ export default function RootLayout({
                 <li>
                   <details>
                     <summary>Katalog</summary>
-                    <ul className=" bg-orange-300 rounded-t-none z-10 shadow-lg !mt-0">
+                    <ul className=" bg-primary rounded-t-none z-10 shadow-lg !mt-0">
                       <li>
                         <Link href={'/oyunlar'}>Oyunlar</Link>
                       </li>
