@@ -19,14 +19,14 @@ export default function RootLayout({
     <html data-theme="light" lang="tr">
       <body className={inter.className}>
         <div className="px-3 lg-px-16">
-          <nav className="rounded-2xl navbar text-accent-content bg-primary shadow-2xl mt-6">
+          <nav className="rounded-2xl navbar text-neutral-content bg-neutral shadow-xl mt-6">
             <div className="flex-1">
               <Link className="btn btn-ghost text-xl" href={'/'}>
                 B&R Elektronik
               </Link>
             </div>
             <div className="flex-none">
-              <label className="flex cursor-pointer gap-2">
+              <label className="cursor-pointer gap-2 hidden md:flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -67,12 +67,21 @@ export default function RootLayout({
                 <li>
                   <details>
                     <summary>Katalog</summary>
-                    <ul className=" bg-primary rounded-t-none z-10 shadow-lg !mt-0">
+                    <ul className="bg-warning text-warning-content z-10 shadow-lg !mt-1">
                       <li>
                         <Link href={'/oyunlar'}>Oyunlar</Link>
                       </li>
                       <li>
                         <a>Konsollar</a>
+                      </li>
+                      <li>
+                        <label className="cursor-pointer flex justify-center md:hidden">
+                          <input
+                            type="checkbox"
+                            value="dark"
+                            className="toggle theme-controller"
+                          />
+                        </label>
                       </li>
                     </ul>
                   </details>
