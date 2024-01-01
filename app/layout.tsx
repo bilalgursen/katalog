@@ -22,7 +22,7 @@ export default function RootLayout({
           <nav className="rounded-2xl navbar text-primary-content bg-orange-300 shadow-2xl mt-6">
             <div className="flex-1">
               <Link className="btn btn-ghost text-xl" href={'/'}>
-                B&R Elektronik
+                Talha
               </Link>
             </div>
             <div className="flex-none">
