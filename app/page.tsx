@@ -10,7 +10,7 @@ export default function Home() {
           <div className="flex-none">
             <ul className="menu menu-horizontal">
               <li>
-                <a>Link</a>
+                <Link href={'/koltest'}>Kol Test</Link>
               </li>
               <li>
                 <details>
