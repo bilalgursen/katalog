@@ -1,4 +1,7 @@
 import data from '@/app/data.json'
+import Logo from '@/public/logo.png'
+import Image from 'next/image'
+
 export default function Oyunlar() {
   return (
     <>
@@ -24,7 +27,7 @@ export default function Oyunlar() {
                 Merhaba değerli kullanıcı bu kısım henüz tamamlanmış değil...
               </div>
             </div>
-            <button className="btn btn-sm">See</button>
+            <Image className="w-10 animate-pulse" src={Logo} />
           </div>
         </section>
         <section className="flex justify-around pb-12 ">
@@ -32,7 +35,7 @@ export default function Oyunlar() {
             {data.games.map((game) => (
               <div
                 key={game.id}
-                className="card w-full bg-base-100 shadow-xl cursor-pointer hover:bg-primary hover:text-primary-content hover:scale-105 duration-150"
+                className="card glass w-full bg-base-100 shadow-xl cursor-pointer hover:bg-primary hover:text-primary-content hover:scale-105 duration-150"
               >
                 <div className="card-body">
                   <h2 className="card-title">

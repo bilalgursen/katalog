@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Logo from '@/public/plus.png'
+import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
@@ -22,6 +24,7 @@ export default function RootLayout({
           <div className="rounded-2xl navbar text-neutral-content bg-neutral shadow-xl mt-6">
             <div className="flex-1">
               <Link className="btn btn-ghost text-xl" href={'/'}>
+                <Image src={Logo} className="w-10" />
                 B&R Elektronik
               </Link>
             </div>
@@ -61,7 +64,7 @@ export default function RootLayout({
                 </svg>
               </label>
               <ul className="menu menu-horizontal">
-                <li>
+                <li className="hidden md:flex">
                   <Link href={'/koltest'}>Kol Test</Link>
                 </li>
                 <li>
@@ -73,6 +76,9 @@ export default function RootLayout({
                       </li>
                       <li>
                         <Link href={'/katalog'}>Kataloglar</Link>
+                      </li>
+                      <li className="flex md:hidden">
+                        <Link href={'/koltest'}>Kol Test</Link>
                       </li>
                       <li>
                         <label className="cursor-pointer flex justify-center md:hidden">
