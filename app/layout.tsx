@@ -66,13 +66,13 @@ export default function RootLayout({
                 </li>
                 <li>
                   <details>
-                    <summary>Katalog</summary>
-                    <ul className="bg-warning text-warning-content z-10 shadow-lg !mt-1">
+                    <summary>Menü</summary>
+                    <ul className="bg-warning text-warning-content z-10 shadow-lg !mt-1 -right-1">
                       <li>
                         <Link href={'/oyunlar'}>Oyunlar</Link>
                       </li>
                       <li>
-                        <a>Konsollar</a>
+                        <Link href={'/pdf'}>Kataloglar</Link>
                       </li>
                       <li>
                         <label className="cursor-pointer flex justify-center md:hidden">
