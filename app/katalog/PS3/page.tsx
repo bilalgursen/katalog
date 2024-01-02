@@ -12,7 +12,7 @@ export default function Page() {
         >
           <p>
             PDF dosyasını görüntüleyemiyorsanız,{' '}
-            <Link className="btn" href={'/PS4.pdf'}>
+            <Link className="btn" href={'/PS3.pdf'}>
               buradan indirebilirsiniz.
             </Link>
           </p>
