@@ -24,7 +24,7 @@ export default function RootLayout({
           <div className="rounded-2xl navbar text-neutral-content bg-neutral shadow-xl mt-6">
             <div className="flex-1">
               <Link className="btn btn-ghost text-xl" href={'/'}>
-                <Image src={Logo} className="w-10" />
+                <Image alt="Plus" src={Logo} className="w-10" />
                 B&R Elektronik
               </Link>
             </div>

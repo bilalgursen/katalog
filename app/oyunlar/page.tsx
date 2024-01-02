@@ -27,7 +27,7 @@ export default function Oyunlar() {
                 Merhaba değerli kullanıcı bu kısım henüz tamamlanmış değil...
               </div>
             </div>
-            <Image className="w-10 animate-pulse" src={Logo} />
+            <Image alt="Logo" className="w-10 animate-pulse" src={Logo} />
           </div>
         </section>
         <section className="flex justify-around pb-12 ">
