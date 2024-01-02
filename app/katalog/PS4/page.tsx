@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Pdf() {
+export default function Page() {
   return (
     <>
       <main className="px-3 lg-px-16 py-8">

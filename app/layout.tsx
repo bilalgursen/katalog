@@ -72,7 +72,7 @@ export default function RootLayout({
                         <Link href={'/oyunlar'}>Oyunlar</Link>
                       </li>
                       <li>
-                        <Link href={'/pdf'}>Kataloglar</Link>
+                        <Link href={'/katalog'}>Kataloglar</Link>
                       </li>
                       <li>
                         <label className="cursor-pointer flex justify-center md:hidden">
