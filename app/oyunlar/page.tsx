@@ -1,6 +1,6 @@
-import data from '@/app/data.json'
-import Logo from '@/public/logo.png'
-import Image from 'next/image'
+import data from "@/app/data.json";
+import Logo from "@/public/logo.png";
+import Image from "next/image";
 
 export default function Oyunlar() {
   return (
@@ -12,7 +12,7 @@ export default function Oyunlar() {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              className="stroke-info shrink-0 w-6 h-6"
+              className="h-6 w-6 shrink-0 stroke-info"
             >
               <path
                 strokeLinecap="round"
@@ -31,11 +31,11 @@ export default function Oyunlar() {
           </div>
         </section>
         <section className="flex justify-around pb-12 ">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {data.games.map((game) => (
               <div
                 key={game.id}
-                className="card glass w-full bg-base-100 shadow-xl cursor-pointer hover:bg-primary hover:text-primary-content hover:scale-105 duration-150"
+                className="card glass w-full cursor-pointer bg-base-100 shadow-xl duration-150 hover:scale-105 hover:bg-primary hover:text-primary-content"
               >
                 <div className="card-body">
                   <h2 className="card-title">
@@ -54,5 +54,5 @@ export default function Oyunlar() {
         </section>
       </main>
     </>
-  )
+  );
 }

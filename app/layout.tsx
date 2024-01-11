@@ -1,35 +1,35 @@
-import type { Metadata } from 'next'
-import Link from 'next/link'
-import Logo from '@/public/plus.png'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from "next";
+import Link from "next/link";
+import Logo from "@/public/plus.png";
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import "./globals.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'B&R Elektronik',
-  description: 'Bilal Gürşen tarafından sevgi ile yazılmıştır.'
-}
+  title: "B&R Elektronik",
+  description: "Bilal Gürşen tarafından sevgi ile yazılmıştır.",
+};
 
 export default function RootLayout({
-  children
+  children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html data-theme="light" lang="tr">
       <body className={inter.className}>
-        <nav className="px-3 lg-px-16">
-          <div className="rounded-2xl navbar text-neutral-content bg-neutral shadow-xl mt-6">
+        <nav className="lg-px-16 px-3">
+          <div className="navbar mt-6 rounded-2xl bg-neutral text-neutral-content shadow-xl">
             <div className="flex-1">
-              <Link className="btn btn-ghost text-xl" href={'/'}>
+              <Link className="btn btn-ghost text-xl" href={"/"}>
                 <Image alt="Plus" src={Logo} className="w-10" />
                 B&R Elektronik
               </Link>
             </div>
             <div className="flex-none">
-              <label className="cursor-pointer gap-2 hidden md:flex">
+              <label className="hidden cursor-pointer gap-2 md:flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -47,7 +47,7 @@ export default function RootLayout({
                 <input
                   type="checkbox"
                   value="dark"
-                  className="toggle theme-controller"
+                  className="theme-controller toggle"
                 />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -65,27 +65,27 @@ export default function RootLayout({
               </label>
               <ul className="menu menu-horizontal">
                 <li className="hidden md:flex">
-                  <Link href={'/koltest'}>Kol Test</Link>
+                  <Link href={"/koltest"}>Kol Test</Link>
                 </li>
                 <li>
                   <details>
                     <summary>Menü</summary>
-                    <ul className="bg-warning text-warning-content z-10 shadow-lg !mt-1 -right-1">
+                    <ul className="-right-1 z-10 !mt-1 bg-warning text-warning-content shadow-lg">
                       <li>
-                        <Link href={'/oyunlar'}>Oyunlar</Link>
+                        <Link href={"/oyunlar"}>Oyunlar</Link>
                       </li>
                       <li>
-                        <Link href={'/katalog'}>Kataloglar</Link>
+                        <Link href={"/katalog"}>Kataloglar</Link>
                       </li>
                       <li className="flex md:hidden">
-                        <Link href={'/koltest'}>Kol Test</Link>
+                        <Link href={"/koltest"}>Kol Test</Link>
                       </li>
                       <li>
-                        <label className="cursor-pointer flex justify-center md:hidden">
+                        <label className="flex cursor-pointer justify-center md:hidden">
                           <input
                             type="checkbox"
                             value="dark"
-                            className="toggle theme-controller"
+                            className="theme-controller toggle"
                           />
                         </label>
                       </li>
@@ -96,11 +96,11 @@ export default function RootLayout({
             </div>
           </div>
         </nav>
-        {children}
-        <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+        <div className="min-h-screen">{children}</div>
+        <footer className="footer footer-center bg-base-300 p-4 text-base-content">
           <p>Copyright © 2024 - Bilal Gürşen Tarafından ❤ ile yazılmıştır.</p>
         </footer>
       </body>
     </html>
-  )
+  );
 }

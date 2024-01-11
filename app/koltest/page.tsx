@@ -1,7 +1,7 @@
 export default function KonsolTest() {
   return (
     <>
-      <main className="px-3 lg-px-16 py-8">
+      <main className="lg-px-16 px-3 py-8">
         <div className="mockup-browser border bg-base-300">
           <div className="mockup-browser-toolbar">
             <div className="input">https://brelektronik.business.site/</div>
@@ -16,5 +16,5 @@ export default function KonsolTest() {
         </div>
       </main>
     </>
-  )
+  );
 }
