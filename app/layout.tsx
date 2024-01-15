@@ -63,35 +63,40 @@ export default function RootLayout({
                   <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                 </svg>
               </label>
-              <ul className="menu menu-horizontal">
+
+              <ul className="menu menu-horizontal items-center gap-1">
                 <li className="hidden md:flex">
                   <Link href={"/koltest"}>Kol Test</Link>
                 </li>
-                <li>
-                  <details>
-                    <summary>Menü</summary>
-                    <ul className="-right-1 z-10 !mt-1 bg-warning text-warning-content shadow-lg">
-                      <li>
-                        <Link href={"/oyunlar"}>Oyunlar</Link>
-                      </li>
-                      <li>
-                        <Link href={"/katalog"}>Kataloglar</Link>
-                      </li>
-                      <li className="flex md:hidden">
-                        <Link href={"/koltest"}>Kol Test</Link>
-                      </li>
-                      <li>
-                        <label className="flex cursor-pointer justify-center md:hidden">
-                          <input
-                            type="checkbox"
-                            value="dark"
-                            className="theme-controller toggle"
-                          />
-                        </label>
-                      </li>
-                    </ul>
-                  </details>
-                </li>
+
+                <div className="dropdown">
+                  <div tabIndex={0} role="button" className="btn btn-ghost">
+                    <span className="font-normal">Menü</span>
+                  </div>
+                  <ul
+                    tabIndex={0}
+                    className="menu dropdown-content menu-sm -right-1 z-[1] rounded-box bg-neutral p-2 shadow"
+                  >
+                    <li>
+                      <Link href={"/oyunlar"}>Oyunlar</Link>
+                    </li>
+                    <li>
+                      <Link href={"/katalog"}>Kataloglar</Link>
+                    </li>
+                    <li className="flex md:hidden">
+                      <Link href={"/koltest"}>Kol Test</Link>
+                    </li>
+                    <li>
+                      <label className="flex cursor-pointer justify-center md:hidden">
+                        <input
+                          type="checkbox"
+                          value="dark"
+                          className="theme-controller toggle"
+                        />
+                      </label>
+                    </li>
+                  </ul>
+                </div>
               </ul>
             </div>
           </div>
