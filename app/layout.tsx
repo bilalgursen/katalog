@@ -4,6 +4,7 @@ import Logo from "@/public/plus.png";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Background from "@/public/bg.svg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,9 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html data-theme="light" lang="tr">
-      <body className={inter.className}>
+      <body className={`${inter.className} pt-6`}>
         <nav className="lg-px-16 px-3">
-          <div className="navbar mt-6 rounded-2xl bg-neutral text-neutral-content shadow-xl">
+          <div className="navbar rounded-2xl bg-neutral text-neutral-content shadow-xl">
             <div className="flex-1">
               <Link className="btn btn-ghost text-xl" href={"/"}>
                 <Image alt="Plus" src={Logo} className="w-10" />
