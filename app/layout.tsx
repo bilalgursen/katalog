@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html data-theme="light" lang="tr">
-      <body className={`${inter.className} pt-6`}>
+      <body className={`${inter.className} cool pt-6`}>
         <nav className="lg-px-16 px-3">
           <div className="navbar rounded-2xl bg-neutral text-neutral-content shadow-xl">
             <div className="flex-1">
