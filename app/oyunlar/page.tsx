@@ -1,8 +1,33 @@
+"use client";
+import { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 import data from "@/app/data.json";
 import Logo from "@/public/logo.png";
-import Image from "next/image";
+
+interface Game {
+  id: number;
+  name: string;
+  location: string;
+  short_description: string;
+  type: string;
+}
 
 export default function Oyunlar() {
+  const [currentPage, setCurrentPage] = useState(1);
+  const pageSize = 9; // Adjust the page size according to your design
+
+  const startIndex = (currentPage - 1) * pageSize;
+  const endIndex = startIndex + pageSize;
+
+  const paginatedGames: Game[] = data.games.slice(startIndex, endIndex);
+
+  const totalPages = Math.ceil(data.games.length / pageSize);
+
+  const handlePageChange = (newPage: number) => {
+    setCurrentPage(newPage);
+  };
+
   return (
     <>
       <main className="px-5">
@@ -32,7 +57,7 @@ export default function Oyunlar() {
         </section>
         <section className="flex justify-around pb-12 ">
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {data.games.map((game) => (
+            {paginatedGames.map((game) => (
               <div
                 key={game.id}
                 className="card glass w-full cursor-pointer bg-base-100 shadow-xl duration-150 hover:scale-105 hover:bg-primary hover:text-primary-content"
@@ -52,6 +77,23 @@ export default function Oyunlar() {
             ))}
           </div>
         </section>
+
+        {/* Pagination Controls */}
+        <div className="my-4 flex justify-center">
+          <div className="join">
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+              <button
+                key={page}
+                className={`btn join-item ${
+                  page === currentPage ? "btn-active" : ""
+                }`}
+                onClick={() => handlePageChange(page)}
+              >
+                {page}
+              </button>
+            ))}
+          </div>
+        </div>
       </main>
     </>
   );
