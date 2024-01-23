@@ -60,12 +60,12 @@ export default function Oyunlar() {
     <>
       <main className="px-5">
         <section className="py-2">
-          <div role="alert" className="alert shadow-sm">
+          <div role="alert" className="alert gap-0 shadow-sm sm:gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              className="h-6 w-6 shrink-0 stroke-info"
+              className="hidden h-6 w-6 shrink-0 stroke-info sm:flex"
             >
               <path
                 strokeLinecap="round"
@@ -82,16 +82,22 @@ export default function Oyunlar() {
                 Merhaba değerli kullanıcı bu kısım henüz tamamlanmış değil...
               </div>
             </div>
-            <Image alt="Logo" className="w-10 animate-pulse" src={Logo} />
+            <Image
+              alt="Logo"
+              className="order-first  w-10 animate-pulse place-self-end sm:order-none sm:place-self-auto"
+              src={Logo}
+            />
           </div>
         </section>
         <section className="flex flex-col items-center justify-around pb-12 ">
           {/* Search and Type Input */}
-          <div className="mb-4 flex items-end gap-3">
+          <div className="mb-7 flex w-full flex-col items-center justify-center gap-3 sm:flex-row">
             <label className="form-control w-full max-w-xs">
-              <div className="label justify-start gap-2">
+              <div className="label flex-col justify-start gap-2 sm:flex-row">
                 <FaGamepad />
-                <span className="label-text">Hangi oyuna baktın ?</span>
+                <span className="text-xs sm:label-text sm:text-xs">
+                  Hangi oyuna baktın ?
+                </span>
               </div>
               <input
                 type="text"
@@ -102,9 +108,11 @@ export default function Oyunlar() {
               />
             </label>
             <label className="form-control w-full max-w-xs">
-              <div className="label flex items-center justify-start gap-1 ">
+              <div className="label flex flex-col items-center justify-start gap-1 sm:flex-row ">
                 <ImFilter />
-                <span className="label-text">Ne tarz oyun seversin ?</span>
+                <span className="text-xs sm:label-text">
+                  Ne tarz oyun seversin ?
+                </span>
               </div>
               <select
                 value={selectedType}
@@ -124,8 +132,8 @@ export default function Oyunlar() {
                 )}
               </select>
             </label>
-            <label className="form-control max-w-xs">
-              <div className="label flex items-center justify-start gap-1 ">
+            <label className="form-control order-first max-w-xs sm:order-none">
+              <div className="label flex flex-col items-center justify-start gap-1 sm:flex-row ">
                 <BsDatabaseFillGear />
               </div>
               <select
@@ -147,6 +155,7 @@ export default function Oyunlar() {
               </select>
             </label>
           </div>
+          {/* İçerik */}
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {paginatedGames.map((game) => (
               <div
