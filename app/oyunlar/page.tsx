@@ -90,7 +90,7 @@ export default function Oyunlar() {
               onChange={(e) => handleTypeChange(e.target.value)}
               className="select select-warning"
             >
-              <option value="" defaultValue>
+              <option value="" defaultValue="">
                 Tüm Kategoriler
               </option>
               {/* Extract unique types from the data */}
