@@ -81,17 +81,43 @@ export default function Oyunlar() {
         {/* Pagination Controls */}
         <div className="my-4 flex justify-center">
           <div className="join">
-            {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-              <button
-                key={page}
-                className={`btn join-item ${
-                  page === currentPage ? "btn-active" : ""
-                }`}
-                onClick={() => handlePageChange(page)}
-              >
-                {page}
-              </button>
-            ))}
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+              if (
+                // Show the first 2 pages
+                page <= 2 ||
+                // Show the last 2 pages
+                page > totalPages - 2 ||
+                // Show 5 pages around the current page
+                (page >= currentPage - 2 && page <= currentPage + 2)
+              ) {
+                return (
+                  <button
+                    key={page}
+                    className={`btn join-item ${
+                      page === currentPage ? "btn-active" : ""
+                    }`}
+                    onClick={() => handlePageChange(page)}
+                  >
+                    {page}
+                  </button>
+                );
+              } else if (
+                // Show ellipsis for skipped pages
+                (page === 3 && currentPage > 5) ||
+                (page === totalPages - 2 && currentPage < totalPages - 4)
+              ) {
+                return (
+                  <button
+                    key={page}
+                    className="btn btn-disabled join-item"
+                    disabled
+                  >
+                    ...
+                  </button>
+                );
+              }
+              return null;
+            })}
           </div>
         </div>
       </main>
