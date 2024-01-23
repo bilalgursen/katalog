@@ -1616,6 +1616,363 @@
       "type": "Aksiyon",
       "short_description": "B&R Elektronik tarafından sunulan The Angry Birds Movie 2 VR Under Pressure PSVR PS4-CUSA16223 oyunu.",
       "location": "Begonya"
+    },
+    {
+      "id": 231,
+      "name": "The Last of Us Part II PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan The Last of Us Part II oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 232,
+      "name": "The Last of Us Part II Update v1.07 PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan The Last of Us Part II Update v1.07 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 233,
+      "name": "eFootball PES 2021 SEASON UPDATE Update v1.03 PS4-UNLiMiTED",
+      "short_description": "B&R Elektronik tarafından sunulan eFootball PES 2021 SEASON UPDATE Update v1.03 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 234,
+      "name": "eFootball PES 2021 SEASON UPDATE PS4-UNLiMiTED",
+      "short_description": "B&R Elektronik tarafından sunulan eFootball PES 2021 SEASON UPDATE oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 235,
+      "name": "Cloudpunk Update v1.01 PS4-UNLiMiTED",
+      "short_description": "B&R Elektronik tarafından sunulan Cloudpunk Update v1.01 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 236,
+      "name": "CUSA19623 00-FIFAFOOTBALL2021-A0105-V0100",
+      "short_description": "B&R Elektronik tarafından sunulan CUSA19623 00-FIFAFOOTBALL2021-A0105-V0100 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 237,
+      "name": "CUSA19623 00-FIFAFOOTBALL2021",
+      "short_description": "B&R Elektronik tarafından sunulan CUSA19623 00-FIFAFOOTBALL2021 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 238,
+      "name": "Cyberpunk 2077 PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Cyberpunk 2077 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 239,
+      "name": "Cloudpunk PS4-UNLiMiTED",
+      "short_description": "B&R Elektronik tarafından sunulan Cloudpunk oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 240,
+      "name": "Need For Speed Hot Pursuit Remastered PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Need For Speed Hot Pursuit Remastered oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 241,
+      "name": "Outward v1.04 PATCH PS4-CUSA10853",
+      "short_description": "B&R Elektronik tarafından sunulan Outward v1.04 PATCH oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 242,
+      "name": "Outward PS4-CUSA10853",
+      "short_description": "B&R Elektronik tarafından sunulan Outward oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 243,
+      "name": "The Angry Birds Movie 2 VR Under Pressure PSVR PS4-CUSA16223",
+      "short_description": "B&R Elektronik tarafından sunulan The Angry Birds Movie 2 VR Under Pressure oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 244,
+      "name": "The Angry Birds Movie 2 VR Under Pressure v1.04 PATCH PSVR PS4-CUSA16223",
+      "short_description": "B&R Elektronik tarafından sunulan The Angry Birds Movie 2 VR Under Pressure v1.04 PATCH oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 245,
+      "name": "NBA 2K20 PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan NBA 2K20 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 246,
+      "name": "NBA 2K20 Update v1.06 PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan NBA 2K20 Update v1.06 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 247,
+      "name": "Resident Evil 3 Update v1.03 PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Resident Evil 3 Update v1.03 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 248,
+      "name": "The Dark Pictures Anthology Little Hope PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan The Dark Pictures Anthology Little Hope oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 249,
+      "name": "The Dark Pictures Anthology Little Hope CUSA18028 BACKPORT [5.05-6.72-7.02] OPOISSO893",
+      "short_description": "B&R Elektronik tarafından sunulan The Dark Pictures Anthology Little Hope CUSA18028 BACKPORT [5.05-6.72-7.02] OPOISSO893 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 250,
+      "name": "eFootball PES 2021 SEASON UPDATE CUSA18740 A0103 BACKPORT [5.05-6.72-7.02]",
+      "short_description": "B&R Elektronik tarafından sunulan eFootball PES 2021 SEASON UPDATE CUSA18740 A0103 BACKPORT [5.05-6.72-7.02] oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 251,
+      "name": "RESIDENT EVIL 3 PS4-CAF",
+      "short_description": "B&R Elektronik tarafından sunulan RESIDENT EVIL 3 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 252,
+      "name": "RESIDENT EVIL 3 PS4-CAF Fix5.05",
+      "short_description": "B&R Elektronik tarafından sunulan RESIDENT EVIL 3 Fix5.05 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 253,
+      "name": "WRC 9 FIA World Rally Championship PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan WRC 9 FIA World Rally Championship oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 254,
+      "name": "WRC 9 FIA World Rally Championship Update v1.04 PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan WRC 9 FIA World Rally Championship Update v1.04 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 255,
+      "name": "UFC 4 PS4-CUSA14209",
+      "short_description": "B&R Elektronik tarafından sunulan UFC 4 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 256,
+      "name": "UFC 4 v4.02 PATCH PS4-CUSA14209",
+      "short_description": "B&R Elektronik tarafından sunulan UFC 4 v4.02 PATCH oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 257,
+      "name": "EA SPORTS UFC 4 CUSA14209 A0402 BACKPORT [5.05-6.72-7.02] OPOISSO893",
+      "short_description": "B&R Elektronik tarafından sunulan EA SPORTS UFC 4 CUSA14209 A0402 BACKPORT [5.05-6.72-7.02] OPOISSO893 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 258,
+      "name": "EA SPORTS UFC 4 CUSA14209 A0402 BACKPORT",
+      "short_description": "B&R Elektronik tarafından sunulan EA SPORTS UFC 4 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 259,
+      "name": "The Last of Us Part II Update v1.07bp PS4-HAKO",
+      "short_description": "B&R Elektronik tarafından sunulan The Last of Us Part II Update v1.07bp oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 260,
+      "name": "Marvels Spider Man Miles Morales PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Marvels Spider Man Miles Morales oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 261,
+      "name": "Marvels Spider Man Miles Morales Update v1.01 PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Marvels Spider Man Miles Morales Update v1.01 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 262,
+      "name": "UP9000 MARVELSSMMORALES A0101 V0100 CyB1K",
+      "short_description": "B&R Elektronik tarafından sunulan UP9000 MARVELSSMMORALES A0101 V0100 CyB1K oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 263,
+      "name": "New Super Luckys Tale PS4-UNLiMiTED",
+      "short_description": "B&R Elektronik tarafından sunulan New Super Luckys Tale oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 264,
+      "name": "Call of Duty Modern Warfare Survival Pack DLC PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty Modern Warfare Survival Pack DLC oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 265,
+      "name": "Call of Duty Modern Warfare Update v1.01 PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty Modern Warfare Update v1.01 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 266,
+      "name": "Call of Duty Modern Warfare Campaign Pack 1 DLC PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty Modern Warfare Campaign Pack 1 DLC oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 267,
+      "name": "Call of Duty Modern Warfare Campaign Pack 2 DLC PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty Modern Warfare Campaign Pack 2 DLC oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 268,
+      "name": "Call of Duty Modern Warfare Multiplayer Pack DLC PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty Modern Warfare Multiplayer Pack DLC oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 269,
+      "name": "Call of Duty Modern Warfare PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty Modern Warfare oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 270,
+      "name": "Call of Duty Modern Warfare Special Ops Pack 2 DLC PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty Modern Warfare Special Ops Pack 2 DLC oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 271,
+      "name": "Call of Duty Modern Warfare Special Ops Pack DLC PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Call of Duty Modern Warfare Special Ops Pack DLC oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 272,
+      "name": "SHNISTANBUL YOUTUBESCEA00000 A0206 V0100",
+      "short_description": "B&R Elektronik tarafından sunulan SHNISTANBUL YOUTUBESCEA00000 A0206 V0100 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 273,
+      "name": "SHNISTANBUL TWITCHPS4APPSCEA A0100 V0101",
+      "short_description": "B&R Elektronik tarafından sunulan SHNISTANBUL TWITCHPS4APPSCEA A0100 V0101 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 274,
+      "name": "SHNISTANBUL TWITCHPS4APPSCEA A0120 V0100",
+      "short_description": "B&R Elektronik tarafından sunulan SHNISTANBUL TWITCHPS4APPSCEA A0120 V0100 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 275,
+      "name": "SHNISTANBUL NETFLIXPOLLUX001 A0141 V0100",
+      "short_description": "B&R Elektronik tarafından sunulan SHNISTANBUL NETFLIXPOLLUX001 A0141 V0100 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 276,
+      "name": "SHNISTANBUL YOUTUBESCEA00000 A0100 V0101",
+      "short_description": "B&R Elektronik tarafından sunulan SHNISTANBUL YOUTUBESCEA00000 A0100 V0101 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 277,
+      "name": "Maid of Sker Update v1.07 PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Maid of Sker Update v1.07 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 278,
+      "name": "Maid of Sker PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Maid of Sker oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 279,
+      "name": "Yakuza Like A Dragon PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Yakuza Like A Dragon oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 280,
+      "name": "Mafia II Definitive Edition Update v1.02 PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Mafia II Definitive Edition Update v1.02 oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
+    },
+    {
+      "id": 281,
+      "name": "Mafia II Definitive Edition PS4-DUPLEX",
+      "short_description": "B&R Elektronik tarafından sunulan Mafia II Definitive Edition oyunu.",
+      "location": "Akasya",
+      "type": "B&R"
     }
   ]
 }

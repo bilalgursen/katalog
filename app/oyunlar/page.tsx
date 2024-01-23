@@ -7,7 +7,7 @@ import Logo from "@/public/logo.png";
 import { FaGamepad } from "react-icons/fa6";
 import { ImFilter } from "react-icons/im";
 import { PiTestTubeDuotone } from "react-icons/pi";
-
+import { BsDatabaseFillGear } from "react-icons/bs";
 interface Game {
   id: number;
   name: string;
@@ -20,13 +20,17 @@ export default function Oyunlar() {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedType, setSelectedType] = useState("");
+  const [selectedLocation, setSelectedLocation] = useState("");
   const pageSize = 15; // Adjust the page size according to your design
 
   const filteredGames: Game[] = data.games
     .filter((game) =>
       game.name.toLowerCase().includes(searchQuery.toLowerCase()),
     )
-    .filter((game) => (selectedType ? game.type === selectedType : true));
+    .filter((game) => (selectedType ? game.type === selectedType : true))
+    .filter((game) =>
+      selectedLocation ? game.location === selectedLocation : true,
+    );
 
   const startIndex = (currentPage - 1) * pageSize;
   const endIndex = startIndex + pageSize;
@@ -48,7 +52,10 @@ export default function Oyunlar() {
     setSelectedType(type);
     setCurrentPage(1);
   };
-
+  const handleLocationChange = (location: string) => {
+    setSelectedLocation(location);
+    setCurrentPage(1);
+  };
   return (
     <>
       <main className="px-5">
@@ -95,14 +102,14 @@ export default function Oyunlar() {
               />
             </label>
             <label className="form-control w-full max-w-xs">
-              <div className="label">
+              <div className="label flex items-center justify-start gap-1 ">
                 <ImFilter />
                 <span className="label-text">Ne tarz oyun seversin ?</span>
               </div>
               <select
                 value={selectedType}
                 onChange={(e) => handleTypeChange(e.target.value)}
-                className="select select-warning"
+                className="select select-bordered"
               >
                 <option value="" defaultValue="">
                   Tüm Kategoriler
@@ -112,6 +119,28 @@ export default function Oyunlar() {
                   (type) => (
                     <option key={type} value={type}>
                       {type}
+                    </option>
+                  ),
+                )}
+              </select>
+            </label>
+            <label className="form-control max-w-xs">
+              <div className="label flex items-center justify-start gap-1 ">
+                <BsDatabaseFillGear />
+              </div>
+              <select
+                value={selectedLocation}
+                onChange={(e) => handleLocationChange(e.target.value)}
+                className="select select-bordered"
+              >
+                <option value="" defaultValue="">
+                  Disk
+                </option>
+                {/* Extract unique locations from the data */}
+                {[...new Set(data.games.map((game) => game.location))].map(
+                  (location) => (
+                    <option key={location} value={location}>
+                      {location}
                     </option>
                   ),
                 )}
