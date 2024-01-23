@@ -15,17 +15,35 @@ interface Game {
 
 export default function Oyunlar() {
   const [currentPage, setCurrentPage] = useState(1);
-  const pageSize = 9; // Adjust the page size according to your design
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedType, setSelectedType] = useState("");
+  const pageSize = 30; // Adjust the page size according to your design
+
+  const filteredGames: Game[] = data.games
+    .filter((game) =>
+      game.name.toLowerCase().includes(searchQuery.toLowerCase()),
+    )
+    .filter((game) => (selectedType ? game.type === selectedType : true));
 
   const startIndex = (currentPage - 1) * pageSize;
   const endIndex = startIndex + pageSize;
 
-  const paginatedGames: Game[] = data.games.slice(startIndex, endIndex);
+  const paginatedGames: Game[] = filteredGames.slice(startIndex, endIndex);
 
-  const totalPages = Math.ceil(data.games.length / pageSize);
+  const totalPages = Math.ceil(filteredGames.length / pageSize);
 
   const handlePageChange = (newPage: number) => {
     setCurrentPage(newPage);
+  };
+
+  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(event.target.value);
+    setCurrentPage(1);
+  };
+
+  const handleTypeChange = (type: string) => {
+    setSelectedType(type);
+    setCurrentPage(1);
   };
 
   return (
@@ -55,7 +73,34 @@ export default function Oyunlar() {
             <Image alt="Logo" className="w-10 animate-pulse" src={Logo} />
           </div>
         </section>
-        <section className="flex justify-around pb-12 ">
+        <section className="flex flex-col items-center justify-around pb-12 ">
+          {/* Search and Type Input */}
+          <div className="mb-4 flex items-center gap-3">
+            <label className="form-control w-full max-w-xs">
+              <input
+                type="text"
+                placeholder="Recep ara ?"
+                value={searchQuery}
+                onChange={handleSearchChange}
+                className="input input-bordered w-full max-w-xs"
+              />
+            </label>
+            <select
+              value={selectedType}
+              onChange={(e) => handleTypeChange(e.target.value)}
+              className="select select-warning"
+            >
+              <option value="" defaultValue>
+                Tüm Kategoriler
+              </option>
+              {/* Extract unique types from the data */}
+              {[...new Set(data.games.map((game) => game.type))].map((type) => (
+                <option key={type} value={type}>
+                  {type}
+                </option>
+              ))}
+            </select>
+          </div>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {paginatedGames.map((game) => (
               <div
