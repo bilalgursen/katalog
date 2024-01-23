@@ -4,6 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 import data from "@/app/data.json";
 import Logo from "@/public/logo.png";
+import { FaGamepad } from "react-icons/fa6";
+import { ImFilter } from "react-icons/im";
+import { PiTestTubeDuotone } from "react-icons/pi";
 
 interface Game {
   id: number;
@@ -17,7 +20,7 @@ export default function Oyunlar() {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedType, setSelectedType] = useState("");
-  const pageSize = 30; // Adjust the page size according to your design
+  const pageSize = 15; // Adjust the page size according to your design
 
   const filteredGames: Game[] = data.games
     .filter((game) =>
@@ -49,8 +52,8 @@ export default function Oyunlar() {
   return (
     <>
       <main className="px-5">
-        <section className="py-6">
-          <div role="alert" className="alert shadow-lg">
+        <section className="py-2">
+          <div role="alert" className="alert shadow-sm">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -65,7 +68,9 @@ export default function Oyunlar() {
               ></path>
             </svg>
             <div>
-              <h3 className="font-bold">Henüz Geliştiriliyor!</h3>
+              <h3 className="flex items-center justify-start gap-1 font-bold ">
+                Deneysel <PiTestTubeDuotone className="text-warning" />
+              </h3>
               <div className="text-xs">
                 Merhaba değerli kullanıcı bu kısım henüz tamamlanmış değil...
               </div>
@@ -75,31 +80,43 @@ export default function Oyunlar() {
         </section>
         <section className="flex flex-col items-center justify-around pb-12 ">
           {/* Search and Type Input */}
-          <div className="mb-4 flex items-center gap-3">
+          <div className="mb-4 flex items-end gap-3">
             <label className="form-control w-full max-w-xs">
+              <div className="label justify-start gap-2">
+                <FaGamepad />
+                <span className="label-text">Hangi oyuna baktın ?</span>
+              </div>
               <input
                 type="text"
-                placeholder="Recep ara ?"
+                placeholder="Oyun adı gir.."
                 value={searchQuery}
                 onChange={handleSearchChange}
                 className="input input-bordered w-full max-w-xs"
               />
             </label>
-            <select
-              value={selectedType}
-              onChange={(e) => handleTypeChange(e.target.value)}
-              className="select select-warning"
-            >
-              <option value="" defaultValue="">
-                Tüm Kategoriler
-              </option>
-              {/* Extract unique types from the data */}
-              {[...new Set(data.games.map((game) => game.type))].map((type) => (
-                <option key={type} value={type}>
-                  {type}
+            <label className="form-control w-full max-w-xs">
+              <div className="label">
+                <ImFilter />
+                <span className="label-text">Ne tarz oyun seversin ?</span>
+              </div>
+              <select
+                value={selectedType}
+                onChange={(e) => handleTypeChange(e.target.value)}
+                className="select select-warning"
+              >
+                <option value="" defaultValue="">
+                  Tüm Kategoriler
                 </option>
-              ))}
-            </select>
+                {/* Extract unique types from the data */}
+                {[...new Set(data.games.map((game) => game.type))].map(
+                  (type) => (
+                    <option key={type} value={type}>
+                      {type}
+                    </option>
+                  ),
+                )}
+              </select>
+            </label>
           </div>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {paginatedGames.map((game) => (
