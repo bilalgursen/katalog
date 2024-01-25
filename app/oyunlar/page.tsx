@@ -91,8 +91,8 @@ export default function Oyunlar() {
         </section>
         <section className="flex flex-col items-center justify-around pb-12 ">
           {/* Search and Type Input */}
-          <div className="mb-7 flex w-full flex-col items-center justify-center gap-3 sm:flex-row">
-            <label className="form-control w-full max-w-xs">
+          <div className="mb-7 flex w-full flex-col items-end justify-center gap-3 sm:flex-row">
+            <label className="form-control w-full">
               <div className="label flex-col justify-start gap-2 sm:flex-row">
                 <FaGamepad />
                 <span className="text-xs sm:label-text sm:text-xs">
@@ -104,59 +104,62 @@ export default function Oyunlar() {
                 placeholder="Oyun adı gir.."
                 value={searchQuery}
                 onChange={handleSearchChange}
-                className="input input-bordered w-full max-w-xs"
+                className="input input-bordered w-full"
               />
             </label>
-            <label className="form-control w-full max-w-xs">
-              <div className="label flex flex-col items-center justify-start gap-1 sm:flex-row ">
-                <ImFilter />
-                <span className="text-xs sm:label-text">
-                  Ne tarz oyun seversin ?
-                </span>
-              </div>
-              <select
-                value={selectedType}
-                onChange={(e) => handleTypeChange(e.target.value)}
-                className="select select-bordered"
-              >
-                <option value="" defaultValue="">
-                  Tüm Kategoriler
-                </option>
-                {/* Extract unique types from the data */}
-                {[...new Set(data.games.map((game) => game.type))].map(
-                  (type) => (
-                    <option key={type} value={type}>
-                      {type}
-                    </option>
-                  ),
-                )}
-              </select>
-            </label>
-            <label className="form-control order-first max-w-xs sm:order-none">
-              <div className="label flex flex-col items-center justify-start gap-1 sm:flex-row ">
-                <BsDatabaseFillGear />
-              </div>
-              <select
-                value={selectedLocation}
-                onChange={(e) => handleLocationChange(e.target.value)}
-                className="select select-bordered"
-              >
-                <option value="" defaultValue="">
-                  Disk
-                </option>
-                {/* Extract unique locations from the data */}
-                {[...new Set(data.games.map((game) => game.location))].map(
-                  (location) => (
-                    <option key={location} value={location}>
-                      {location}
-                    </option>
-                  ),
-                )}
-              </select>
-            </label>
+            <div className="flex w-full items-end justify-between gap-3">
+              <label className="form-control w-full ">
+                <div className="label flex flex-col items-center justify-start gap-1 sm:flex-row ">
+                  <ImFilter />
+                  <span className="text-xs sm:label-text">
+                    Ne tarz oyun seversin ?
+                  </span>
+                </div>
+                <select
+                  value={selectedType}
+                  onChange={(e) => handleTypeChange(e.target.value)}
+                  className="select select-bordered"
+                >
+                  <option value="" defaultValue="">
+                    Tüm Kategoriler
+                  </option>
+                  {/* Extract unique types from the data */}
+                  {[...new Set(data.games.map((game) => game.type))].map(
+                    (type) => (
+                      <option key={type} value={type}>
+                        {type}
+                      </option>
+                    ),
+                  )}
+                </select>
+              </label>
+              <label className="form-control order-first max-w-xs sm:order-none">
+                <div className="label flex flex-col items-center justify-start gap-1 sm:flex-row ">
+                  <BsDatabaseFillGear />
+                </div>
+                <select
+                  value={selectedLocation}
+                  onChange={(e) => handleLocationChange(e.target.value)}
+                  className="select select-bordered"
+                >
+                  <option value="" defaultValue="">
+                    Disk
+                  </option>
+                  {/* Extract unique locations from the data */}
+                  {[...new Set(data.games.map((game) => game.location))].map(
+                    (location) => (
+                      <option key={location} value={location}>
+                        {location}
+                      </option>
+                    ),
+                  )}
+                </select>
+              </label>
+            </div>
           </div>
+
           {/* İçerik */}
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {paginatedGames.map((game) => (
               <div
                 key={game.id}
