@@ -1,3 +1,6 @@
+// Import the styles provided by the react-pdf-viewer packages
+import "@react-pdf-viewer/core/lib/styles/index.css";
+import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Logo from "@/public/plus.png";

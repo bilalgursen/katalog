@@ -9,7 +9,7 @@ export default function Katalog() {
             <div className="card-body">
               <h2 className="card-title text-5xl">PS4 Liste</h2>
               <div className="card-actions justify-end">
-                <Link className="btn " target="_blank" href={"/katalog/PS4"}>
+                <Link className="btn " href={"/katalog/PS4"}>
                   Kataloğa Git
                 </Link>
               </div>
@@ -19,7 +19,7 @@ export default function Katalog() {
             <div className="card-body">
               <h2 className="card-title text-5xl">PS4 Liste 2</h2>
               <div className="card-actions justify-end">
-                <Link className="btn " target="_blank" href={"/katalog/PS4-2"}>
+                <Link className="btn " href={"/katalog/PS4-2"}>
                   Kataloğa Git
                 </Link>
               </div>
@@ -29,7 +29,7 @@ export default function Katalog() {
             <div className="card-body">
               <h2 className="card-title text-5xl">PS3 Liste</h2>
               <div className="card-actions justify-end">
-                <Link className="btn " target="_blank" href={"/katalog/PS3"}>
+                <Link className="btn " href={"/katalog/PS3"}>
                   Kataloğa Git
                 </Link>
               </div>
