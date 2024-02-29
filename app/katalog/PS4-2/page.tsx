@@ -1,23 +1,21 @@
-import { Viewer, Worker } from "@react-pdf-viewer/core";
-import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout";
+import Link from "next/link";
 
-const HomePage = () => {
-  const defaultLayoutPluginInstance = defaultLayoutPlugin();
-
+export default function page() {
   return (
-    <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.15.349/build/pdf.worker.js">
-      <div
-        style={{
-          height: "750px",
-          width: "900px",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
+    <main className="lg-px-16 px-6 py-8">
+      <object
+        data="/PS4_1.pdf"
+        type="application/pdf"
+        width="100%"
+        height="1300px"
       >
-        <Viewer fileUrl="/PS4_1" plugins={[defaultLayoutPluginInstance]} />
-      </div>
-    </Worker>
+        <p>
+          PDF dosyasını görüntüleyemiyorsanız,{" "}
+          <Link className="btn" href={"/PS4_1.pdf"}>
+            buradan indirebilirsiniz.
+          </Link>
+        </p>
+      </object>
+    </main>
   );
-};
-
-export default HomePage;
+}
