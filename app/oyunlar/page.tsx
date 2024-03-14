@@ -76,7 +76,8 @@ export default function Oyunlar() {
             </svg>
             <div>
               <h3 className="flex items-center justify-start gap-1 font-bold ">
-                Deneysel <PiTestTubeDuotone className="text-warning" />
+                Geçici Olarak Anasayfamız...{" "}
+                <PiTestTubeDuotone className="text-warning" />
               </h3>
               <div className="text-xs">
                 Merhaba değerli kullanıcı bu kısım henüz tamamlanmış değil...
